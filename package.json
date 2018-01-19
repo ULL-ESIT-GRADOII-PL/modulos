@@ -7,16 +7,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ULL-ESIT-MII-CA-1718/modulos-KevMCh.git"
+    "url": "git+https://github.com/ULL-ESIT-GRADOII-PL/modulos.git"
   },
   "keywords": [
     "js",
-    "inheritance"
+    "inheritance",
+    "modules"
   ],
-  "author": "Kevin Martín Chinea",
+  "author": "Casiano Rodríguez León",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ULL-ESIT-MII-CA-1718/modulos-KevMCh/issues"
+    "url": "https://github.com/ULL-ESIT-GRADOII-PL/modulos/issues"
   },
   "homepage": "https://github.com/ULL-ESIT-MII-CA-1718/modulos-KevMCh#readme",
   "devDependencies": {
