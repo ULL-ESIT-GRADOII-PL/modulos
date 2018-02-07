@@ -14,5 +14,3 @@ gulp.task('debugger', shell.task('node --inspect-brk src/main.js'));
 gulp.task("test", shell.task("./node_modules/mocha/bin/mocha --require should"));
 
 gulp.task("docs", shell.task("./node_modules/documentation/bin/documentation.js build src/** -f html -o docs"));
-gulp.task("jsdoc", shell.task("./node_modules/jsdoc/jsdoc.js src/* -d jsdoc"));
-gulp.task("docco", shell.task("./node_modules/docco/bin/docco src/* -o docco"));

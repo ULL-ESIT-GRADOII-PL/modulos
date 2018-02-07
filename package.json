@@ -1,7 +1,7 @@
 {
-  "name": "@kevmch/oop",
+  "name": "@ULL-ESIT-GRADOII-PL/draw-table",
   "version": "2.0.5",
-  "description": "examples of inheritance in object oriented programming.",
+  "description": "Example of how to build a module.",
   "scripts": {
     "test": "mocha"
   },
@@ -19,22 +19,17 @@
   "bugs": {
     "url": "https://github.com/ULL-ESIT-GRADOII-PL/modulos/issues"
   },
-  "homepage": "https://github.com/ULL-ESIT-MII-CA-1718/modulos-KevMCh#readme",
+  "homepage": "https://github.com/ULL-ESIT-GRADOII-PL/modulos/blob/master/README.md",
   "devDependencies": {
     "better-assert": "^1.0.2",
-    "docco": "^0.7.0",
     "documentation": "^5.3.2",
     "gulp": "^3.9.1",
-    "gulp-shell": "^0.6.3",
-    "jsdoc": "^3.5.5",
+    "gulp-shell": "^0.6.5",
     "mocha": "^3.5.3",
-    "should": "^13.0.1"
+    "should": "^13.2.1"
   },
   "engines": {
-    "node": ">= 6.x"
+    "node": ">= 8.x"
   },
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  }
+  "main": "index.js"
 }
