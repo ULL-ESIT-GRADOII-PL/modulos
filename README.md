@@ -1,3 +1,5 @@
+# Ejemplo de solución a la práctica de publicar un módulo en npm
+
 ## Eloquent JavaScript. Chapter 6: The Secret Life of Objects.  Section *Laying out a table*
 
 [![Build Status](https://travis-ci.org/ULL-ESIT-MII-CA-1718/modulos-KevMCh.svg?branch=master)](https://travis-ci.org/ULL-ESIT-MII-CA-1718/modulos-KevMCh)
