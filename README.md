@@ -1,5 +1,30 @@
 # Ejemplo de solución a la práctica de publicar un módulo en npm
 
+## Reto
+
+Escriba un nuevo tipo de celda `ColorCell`
+
+```js
+[
+  {"name": {"type": "ColorCell", "params": ["Teide", blue", "bgWhite"]}, "height": 3718, "country": "Spain"},
+  {"name": "Kilimanjaro\nMontaña mágica", "height": 5895, "country": "Tanzania"},
+  {"name": "Everest", "height": 8848, "country": "Nepal\nPaís lejano"},
+  {"name": {"type": "StrechCell", "params": ["Mount Fuji", 2]}, "height": 3776, "country": "Japan"},
+  {"name": "Mont Blanc", "height": {"type": "ColorCell", "params": [4808, "red"]}, "country": "Italy/France"},
+  {"name": "Vaalserberg", "height": 323, "country": "Netherlands"},
+  {"name": "Denali", "height": 6168, "country": "United States"},
+  {"name": "Popocatepetl", "height": 5465, "country": { "type": "RCell", "params": ["Mexico"]} }
+]
+```
+
+* Use el módulo [chalk](https://www.npmjs.com/package/chalk) para insertar los colores:
+
+  ```js
+  log(chalk.red('Hello', chalk.underline.bgBlue('world') + '!'));
+  ```
+* Publique el nuevo tipo de celda como un módulo npm `@aluXXX/mimodulo-plugin-colorcell`
+* Compruebe que la funcionalidad de su módulo queda extendida correctamente con el módulo plugin
+
 ## Eloquent JavaScript. Chapter 6: The Secret Life of Objects.  Section *Laying out a table*
 
 [![Build Status](https://travis-ci.org/ULL-ESIT-MII-CA-1718/modulos-KevMCh.svg?branch=master)](https://travis-ci.org/ULL-ESIT-MII-CA-1718/modulos-KevMCh)
